@@ -1,6 +1,7 @@
 # Task#3
 3.1
 
+ --
  To solve this task I use next steps:
 
 1. Transform lbs to kilograms and push to array. This allows to work with one array data.
@@ -26,7 +27,9 @@ After method countTwoSize() check what we have T-shirt size wich sportsmen indic
 --
 Also method countTwoSize() check if we have T-shirt first and second size and array with T-shirts size completely iterated.
 --
+--
 If did not have enough T-shirts at least for one sportments console.log() returns appropriate message and vice versa if enough T-shirts will also notify message.  
 
 # Task#4
+ --
  The logic of solving this task is build on the idea what I find all actors on our field and points on vertical (X) and horizontal (Y)  axis to these actors are in "good position". After I find all cross multiplication this points and rule out their recurrence.                
