@@ -13,12 +13,7 @@ if (
   numberGuessFirstFriend + 1 == numberGuessSecondFriend
 ) {
   console.log("In this case can transform one number to another");
-  // fs.writeFileSync(
-  //   path.resolve(__dirname, "outputData.json"),
-  //   JSON.stringify({"Task1": "In this case can transform one number to another" },
-  //   { encoding: "utf-8" }
-  // ));
-} else {
+ } else {
   console.log(`Can't transform one number to another`);
 }
 
