@@ -13,13 +13,20 @@
 
  The logic of solving this task next:
 
- I created two classes. First class Shirts with parameters size and allSporsmans. Parameter size takes object objShirts with sizes our T-shirts as keys and and numbers of shirts as key values. Parameter allSportsmens takes array objects sportsmens wich create from class Sportsmens. 
- In сonstructor class Shirts contains properties object shirts oneSize with value one size sportsment's T-shirt who select one size and twoSize for sportsments who indicated two size. There are also two methods in class Shirts. 
- First method countOneSize() gives T-shirts to sportsments who indicated one size. And respectively program gives this sportsments first. The number of T-shirts with the appropriate size is reduced in object objShirts. 
- Second method countTwoSize() gives sportsments at the beginning T-shirt the size they indicated first. For example if sportsmen indicated ['XXL', 'XXXL'] he gets XXL T-shirt.
- After method countTwoSize() check what we have T-shirt size wich sportsmen indicated first. If we have - break loop and  iteration doesn't reach up to second size. If we don't have T-shirts with one size, iteration    continues and pick up second size. 
-  Also method countTwoSize() check if we have T-shirt first and second size and array with T-shirts size completely iterated.
-  If did not have enough T-shirts at least for one sportments console.log() returns appropriate message and vice versa if enough T-shirts will also notify message.  
+--
+I created two classes. First class Shirts with parameters size and allSporsmans. Parameter size takes object objShirts with sizes our T-shirts as keys and and numbers of shirts as key values. Parameter allSportsmens takes array objects sportsmens wich create from class Sportsmens. 
+--
+In сonstructor class Shirts contains properties object shirts oneSize with value one size sportsment's T-shirt who select one size and twoSize for sportsments who indicated two size. There are also two methods in class Shirts. 
+--
+First method countOneSize() gives T-shirts to sportsments who indicated one size. And respectively program gives this sportsments first. The number of T-shirts with the appropriate size is reduced in object objShirts. 
+--
+Second method countTwoSize() gives sportsments at the beginning T-shirt the size they indicated first. For example if sportsmen indicated ['XXL', 'XXXL'] he gets XXL T-shirt.
+--
+After method countTwoSize() check what we have T-shirt size wich sportsmen indicated first. If we have - break loop and  iteration doesn't reach up to second size. If we don't have T-shirts with one size, iteration    continues and pick up second size. 
+--
+Also method countTwoSize() check if we have T-shirt first and second size and array with T-shirts size completely iterated.
+--
+If did not have enough T-shirts at least for one sportments console.log() returns appropriate message and vice versa if enough T-shirts will also notify message.  
 
 # Task#4
  The logic of solving this task is build on the idea what I find all actors on our field and points on vertical (X) and horizontal (Y)  axis to these actors are in "good position". After I find all cross multiplication this points and rule out their recurrence.                
