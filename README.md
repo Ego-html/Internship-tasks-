@@ -13,8 +13,8 @@
 
 # Task#3
 3.2
- --
- The logic of solving this task next:
+--
+The logic of solving this task next:
 I created two classes. First class Shirts with parameters size and allSporsmans. Parameter size takes object objShirts with sizes our T-shirts as keys and and numbers of shirts as key values. Parameter allSportsmens takes array objects sportsmens wich create from class Sportsmens. 
 In сonstructor class Shirts contains properties object shirts oneSize with value one size sportsment's T-shirt who select one size and twoSize for sportsments who indicated two size. There are also two methods in class Shirts. 
 First method countOneSize() gives T-shirts to sportsments who indicated one size. And respectively program gives this sportsments first. The number of T-shirts with the appropriate size is reduced in object objShirts. 
