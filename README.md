@@ -1,12 +1,14 @@
 # Task#3
 3.1
-
- --
+--
  To solve this task I use next steps:
-
+--
 1. Transform lbs to kilograms and push to array. This allows to work with one array data.
+--
 2. Generate a random counts of loads from 1 till 12 which a sportsman will hang on one side neck.
+--
 3. Create loop with random counts of loads in paragraph 2 in condition. This loop will create random loads. The sum of these loads multiplied by 2 (loads hanging on each side of the neck) and will be result of our first sportsmen. Therefore we take a random result our sportsmen and need get the number wich will be a minimum more than this number.
+--
 4. In order to get this number I use loop in loop to get sums of all array elements which will be more then sportsmen's result and use method Math.min() to get minimum number of this sums. This is will be solve this task.
 
 # Task#3
