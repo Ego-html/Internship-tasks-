@@ -11,9 +11,8 @@
 
 # Task#3
 3.2
-
+ --
  The logic of solving this task next:
-
 --
 I created two classes. First class Shirts with parameters size and allSporsmans. Parameter size takes object objShirts with sizes our T-shirts as keys and and numbers of shirts as key values. Parameter allSportsmens takes array objects sportsmens wich create from class Sportsmens. 
 --
@@ -26,7 +25,6 @@ Second method countTwoSize() gives sportsments at the beginning T-shirt the size
 After method countTwoSize() check what we have T-shirt size wich sportsmen indicated first. If we have - break loop and  iteration doesn't reach up to second size. If we don't have T-shirts with one size, iteration    continues and pick up second size. 
 --
 Also method countTwoSize() check if we have T-shirt first and second size and array with T-shirts size completely iterated.
---
 --
 If did not have enough T-shirts at least for one sportments console.log() returns appropriate message and vice versa if enough T-shirts will also notify message.  
 
